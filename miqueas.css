@@ -1,0 +1,137 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    background-color: rgba(200, 0, 0, 1);
+
+}
+
+nav {
+    background-color: rgba(200, 0, 0, 1);
+    width: 100%;
+}
+
+nav ul {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    justify-content: center;
+}
+
+.section {
+    border-radius: 30px;
+    padding-top: 20px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
+
+aside {
+    margin-left: 30px;
+    align-items: center;
+    background: linear-gradient(to top, #00000082, #000000), center no-repeat;
+    background-size: auto 100%;
+    border-radius: 30px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 50px 20px 0;
+    min-height: 400px;
+    max-width: 480px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 60% 10% 30%;
+}
+
+.team {
+    color: rgb(255, 255, 255);
+    border-radius: 30px 30px 30px 30px;
+    border: 8px solid rgba(200, 0, 0, 1);
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 0 2vw;
+}
+
+.text {
+    color: rgb(255, 255, 255);
+    border-radius: 30px 30px 30px 30px;
+    border: 8px solid rgba(200, 0, 0, 1);
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 75%;
+}
+
+.banner {
+    background: rgb(200, 0, 0);
+    background: linear-gradient(0deg, rgba(200, 0, 0, 1) 5%, rgba(100, 0, 0, 1) 50%);
+}
+.textsm {
+    color: rgb(255, 255, 255);
+    border-radius: 30px 30px 30px 30px;
+    border: 8px solid rgba(200, 0, 0, 1);
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    padding: 10px;
+    margin: 20px auto;
+    width: 350px;
+    height: 350px;
+}

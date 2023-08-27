@@ -1,2 +1,0 @@
-# Friv
-test

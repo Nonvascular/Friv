@@ -1,0 +1,191 @@
+@font-face {
+    font-family: Pressstart;
+    src: url(assets/PressStart2P-Regular.ttf);
+  }
+  
+  div {
+    font-family: Pressstart;
+  }
+  
+  @font-face {
+    font-family: VT323;
+    src: url(assets/VT323-Regular.ttf);
+  }
+  
+  div {
+    font-family: VT323;
+  }
+  
+  body{
+    background-color: #000;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.0)), url(assets/HD-wallpaper-sci-fi-cyberpunk-city-futuristic.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center 800px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    color: antiquewhite;
+    top: 0;
+    width: 100%;
+    padding: 5px;
+    align-content: center;
+}
+
+li{
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+ul {
+    margin: 0;
+    padding: 0; 
+    font-weight: normal;
+    align-items: center;
+}
+
+nav ul{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    justify-content: center;
+    align-items: center;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+.banner{
+    align-items: center;
+    width: 100%;
+    height: 750px;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.90)) ,url(assets/cyberbg.jpeg);
+    contain: content;
+    font-family: Pressstart;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+h2{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h3{
+    font-size: 30px;
+    color: rgb(245, 245, 245);
+}
+
+.one{
+    background-color: rgba(56, 57, 88, 0.45);
+    border-style: solid;
+    border-radius: 60px;
+    border-color: rgb(48, 48, 74);
+    border-width: 7px;
+    height: 450px;
+    max-width: 100%;
+    display: flex; 
+    flex-direction: row;
+    max-height: 350px;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px;
+    
+}
+.end1pic{
+    border-radius: 15px;
+}
+
+.two{
+    background-color: rgba(56, 57, 88, 0.85);
+    border-style: solid;
+    border-radius: 60px;
+    border-color: rgb(48, 48, 74);
+    border-width: 7px;
+    height: 450px;
+    max-width: 100%;
+    display: flex; 
+    flex-direction: row;
+    max-height: 350px;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px;
+    
+}
+
+.end2pic{
+    border-radius: 15px;
+}
+
+.three{
+    background-color: rgba(56, 57, 88, 0.45);
+    border-style: solid;
+    border-radius: 60px;
+    border-color: rgb(48, 48, 74);
+    border-width: 7px;
+    height: 450px;
+    max-width: 100%;
+    display: flex; 
+    flex-direction: row;
+    max-height: 350px;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px;
+}
+
+.end3pic{
+    border-radius: 15px;
+}
+
+video{
+    border-radius:30px;
+}
+
+
+
+button{
+    font-family: VT323;
+    background-color: #7b7dbd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #000;
+    width: 100px;
+    height: 40px;
+    font-size: 24px;
+    transition: all .5s ease;
+}
+
+
+
+button:hover{
+    width: 150px;
+}
+
+b{
+    font-weight: bold;
+}
+
+a{
+    color: aliceblue;
+    transition: all .2s ease;
+}
+
+a:hover{
+    color: #7b7dbd;
+}
